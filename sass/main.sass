@@ -1,0 +1,93 @@
+@import "./colors"
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: Arial, Helveltica, sans-serif
+    outline: none
+
+body
+    text-align: center
+    margin: 3rem auto
+    background-color: #b5830e
+    max-width: 400px
+
+.form-container
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    background-color: #fafafa
+    padding: 1rem
+    border-radius: 10px
+    gap: 10px
+
+.form-container p
+    color: #7c7c7c
+    font-size: 14px
+
+#input-text
+    width: 85%
+    padding: 10px
+    border: 1px solid #c5c5c5
+    border-radius: 4px
+
+.btn-submit
+    display: none
+    padding: .8rem 4rem
+    border: 1px solid #c5c5c5
+    border-radius: 4px
+    color: #fafafa
+    background-color: #227800
+    font-size: 15px
+    font-weight: bold
+    cursor: pointer
+
+.text-warning
+    color: #ff0000 !important
+    font-size: 15px
+
+.qr-code
+    max-width: 82%
+
+.qr-code-img
+    display: none
+    width: 300px
+    padding: 12px
+    margin-bottom: 1.4rem
+    box-shadow: 1px 2px 7.5px 0.4px
+    border-radius: 10px
+
+.active
+    display: flex !important
+
+
+.text-qr-code
+    color: $BgButtonsText !important
+    font-size: 15px
+
+.btn-refresh-page
+    display: none
+    padding: 6px
+    border: 1px solid #c5c5c5
+    border-radius: 4px
+    color: #fafafa
+    background-color: #b5830e
+    font-size: 13px
+    font-weight: bold
+    cursor: pointer
+.btn-refresh-page:hover
+    background-color: $BgButtonsText
+
+
+footer
+    margin-top: 3rem
+
+footer h2
+    font-size: 20px
+    font-weight: 500
+
+footer h2 span
+    font-weight: bold
+    color: #fafafa
